@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  background-color:	#F5F5F5;
+}
+
+h1 {
+  font-family: Lobster;
+  font-size: 70px;
+  text-shadow: 3px 2px #FA8072;
+  margin: 0.25em;
+  color: #FFA07A;
+}
+
+h2 {
+  margin: 0.25em 0 0.5em;
+  font-family: Kurale;
+}
+
+#customizability {
+  margin:0;
+}
+
+#customizeSize {
+  display: inline-block;
+  width: 17%;
+  height: 220px;
+  font-family: 'Fauna One';
+}
+
+#customizeColor {
+  display: inline-block;
+  width: 17%;
+  height: 220px;
+}
+
+.formTitles {
+  font-weight: bold;
+  font-family: Stint Ultra Condensed;
+}
+
+.textBoxes {
+  border-radius: 5px;
+  border:none;
+  margin: 0.25em;
+  text-align: center;
+  background-color: #E2CCA8;
+  height: 2em;
+  width: 4.5em;
+  font-family: Stint Ultra Condensed;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 2px 2px 	#DEB887;
+}
+
+#submit {
+  font-family: Kurale;
+  font-weight: bold;
+  margin: 0.25em;
+  border-radius: 5px;
+  border:none;
+  background-color: #A5EBEB;
+  width: 130px;
+  box-shadow: 2.5px 2.5px #96CACA;
+}
+
+#submit:active {
+  background-color: #A5EBEB;
+  box-shadow: 1 3px #666;
+  transform: translateY(2px);
+  box-shadow: 2px 2px #96CACA;
+}
+
+#colorPicker {
+  background-color: #A5EBEB;
+  border-radius: 5px;
+  border:none;
+  height: 100px;
+  width: 125px;
+  box-shadow: 2.5px 2.5px #96CACA;
+}
+
+table{
+  border: 3px solid black;
+  box-shadow: 5px 5px grey;
+}
+tr,
+td {
+  border: 1px solid #000;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
